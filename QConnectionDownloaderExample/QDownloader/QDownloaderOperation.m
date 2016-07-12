@@ -109,7 +109,9 @@
     
     if (error == nil && response != nil) {
         self.expectedContentLength = response.expectedContentLength;
-        self.targetPath = [NSTemporaryDirectory() stringByAppendingPathComponent:response.suggestedFilename];
+        
+        NSString *dir = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject;
+        self.targetPath = [dir stringByAppendingPathComponent:response.suggestedFilename];
     }
 }
 
