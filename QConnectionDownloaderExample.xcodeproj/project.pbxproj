@@ -110,9 +110,9 @@
 		1AFC8DB01D34E30200DE9B91 /* QConnectionDownloaderExample */ = {
 			isa = PBXGroup;
 			children = (
-				1AFC8DE41D34E32000DE9B91 /* QDownloader */,
 				1AFC8DB71D34E30200DE9B91 /* ViewController.h */,
 				1AFC8DB81D34E30200DE9B91 /* ViewController.m */,
+				1AFC8DE41D34E32000DE9B91 /* QDownloader */,
 				1AFC8DB11D34E30200DE9B91 /* Supporting Files */,
 			);
 			path = QConnectionDownloaderExample;
@@ -526,6 +526,7 @@
 				1AFC8DDD1D34E30200DE9B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AFC8DDE1D34E30200DE9B91 /* Build configuration list for PBXNativeTarget "QConnectionDownloaderExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +535,7 @@
 				1AFC8DE01D34E30200DE9B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AFC8DE11D34E30200DE9B91 /* Build configuration list for PBXNativeTarget "QConnectionDownloaderExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +544,7 @@
 				1AFC8DE31D34E30200DE9B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
