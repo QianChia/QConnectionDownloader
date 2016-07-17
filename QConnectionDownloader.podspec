@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'QConnectionDownloader'
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
   s.license      = 'MIT'
