@@ -1,2 +1,2 @@
 # QConnectionDownloader
-对 NSURLConnection 下载文件的简单封装
+对 NSURLConnection 文件下载的简单封装
