@@ -1,5 +1,5 @@
 //
-//  QDownloaderManager.h
+//  QConnectionDownloader.h
 //  QConnectionDownloader
 //
 //  Created by JHQ0228 on 16/7/12.
@@ -9,12 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "UIButton+Progress.h"
 
-@interface QDownloaderManager : NSObject
+@interface QConnectionDownloader : NSObject
 
 /**
  *  创建单例类对象
  */
-+ (instancetype)sharedManager;
++ (instancetype)defaultDownloader;
 
 /**
  *  创建下载

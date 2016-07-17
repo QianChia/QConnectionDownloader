@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0C71101D3BA0E500A71FDA /* QDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C710B1D3BA0E500A71FDA /* QDownloaderManager.m */; };
 		1A0C71111D3BA0E500A71FDA /* QDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C710D1D3BA0E500A71FDA /* QDownloaderOperation.m */; };
 		1A0C71121D3BA0E500A71FDA /* UIButton+Progress.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C710F1D3BA0E500A71FDA /* UIButton+Progress.m */; };
+		1A0C713F1D3BE71100A71FDA /* QConnectionDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0C713E1D3BE71100A71FDA /* QConnectionDownloader.m */; };
 		1AFC8DB31D34E30200DE9B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC8DB21D34E30200DE9B91 /* main.m */; };
 		1AFC8DB61D34E30200DE9B91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC8DB51D34E30200DE9B91 /* AppDelegate.m */; };
 		1AFC8DB91D34E30200DE9B91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFC8DB81D34E30200DE9B91 /* ViewController.m */; };
@@ -38,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A0C710A1D3BA0E500A71FDA /* QDownloaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDownloaderManager.h; sourceTree = "<group>"; };
-		1A0C710B1D3BA0E500A71FDA /* QDownloaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDownloaderManager.m; sourceTree = "<group>"; };
 		1A0C710C1D3BA0E500A71FDA /* QDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDownloaderOperation.h; sourceTree = "<group>"; };
 		1A0C710D1D3BA0E500A71FDA /* QDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDownloaderOperation.m; sourceTree = "<group>"; };
 		1A0C710E1D3BA0E500A71FDA /* UIButton+Progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Progress.h"; sourceTree = "<group>"; };
 		1A0C710F1D3BA0E500A71FDA /* UIButton+Progress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Progress.m"; sourceTree = "<group>"; };
+		1A0C713D1D3BE71100A71FDA /* QConnectionDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QConnectionDownloader.h; sourceTree = "<group>"; };
+		1A0C713E1D3BE71100A71FDA /* QConnectionDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QConnectionDownloader.m; sourceTree = "<group>"; };
 		1AFC8DAE1D34E30200DE9B91 /* QConnectionDownloaderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QConnectionDownloaderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFC8DB21D34E30200DE9B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AFC8DB41D34E30200DE9B91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,8 +153,8 @@
 		1AFC8DE41D34E32000DE9B91 /* QConnectionDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				1A0C710A1D3BA0E500A71FDA /* QDownloaderManager.h */,
-				1A0C710B1D3BA0E500A71FDA /* QDownloaderManager.m */,
+				1A0C713D1D3BE71100A71FDA /* QConnectionDownloader.h */,
+				1A0C713E1D3BE71100A71FDA /* QConnectionDownloader.m */,
 				1A0C710C1D3BA0E500A71FDA /* QDownloaderOperation.h */,
 				1A0C710D1D3BA0E500A71FDA /* QDownloaderOperation.m */,
 				1A0C710E1D3BA0E500A71FDA /* UIButton+Progress.h */,
@@ -296,8 +296,8 @@
 				1A0C71121D3BA0E500A71FDA /* UIButton+Progress.m in Sources */,
 				1AFC8DB91D34E30200DE9B91 /* ViewController.m in Sources */,
 				1AFC8DB61D34E30200DE9B91 /* AppDelegate.m in Sources */,
-				1A0C71101D3BA0E500A71FDA /* QDownloaderManager.m in Sources */,
 				1A0C71111D3BA0E500A71FDA /* QDownloaderOperation.m in Sources */,
+				1A0C713F1D3BE71100A71FDA /* QConnectionDownloader.m in Sources */,
 				1AFC8DB31D34E30200DE9B91 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
