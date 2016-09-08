@@ -46,12 +46,16 @@
 
 - (void)pauseDownloadWithURL:(NSURL *)url {
     
+    NSLog(@"暂停下载");
+    
     [[QConnectionDownloader defaultDownloader] q_pauseWithURL:url];
 }
 
 /// 取消下载
 
 - (void)cancelDownloadWithURL:(NSURL *)url button:(UIButton *)button {
+    
+    NSLog(@"取消下载");
     
     [[QConnectionDownloader defaultDownloader] q_cancelWithURL:url];
     

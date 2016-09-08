@@ -20,7 +20,10 @@
  *
  *  @return 文件下载操作
 */
-+ (instancetype)q_downloaderWithURL:(NSURL *)url progress:(void (^)(float progress))progress successed:(void (^)(NSString *targetPath))successed failed:(void (^)(NSError *error))failed;
++ (instancetype)q_downloaderWithURL:(NSURL *)url
+                           progress:(void (^)(float progress))progress
+                          successed:(void (^)(NSString *targetPath))successed
+                             failed:(void (^)(NSError *error))failed;
 
 /**
  *  暂停下载操作
